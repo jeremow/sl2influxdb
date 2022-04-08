@@ -3,8 +3,8 @@
 import logging
 import sys
 
-from influxdb import InfluxDBClient
-from influxdb.exceptions import InfluxDBServerError, \
+from influxdb_client import InfluxDBClient
+from influxdb_client.exceptions import InfluxDBServerError, \
                                 InfluxDBClientError
 import requests.exceptions
 

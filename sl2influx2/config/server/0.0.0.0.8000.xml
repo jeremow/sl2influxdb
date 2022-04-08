@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<server ip='0.0.0.0' port='8000'>
+	<network name='RD'>
+		<station name='SONA0'>
+			<channel name='SHZ'>
+			</channel>
+
+			<channel name='SHN'>
+			</channel>
+
+			<channel name='SHE'>
+			</channel>
+		</station>
+
+		<station name='SONA1'>
+			<channel name='SHZ'>
+			</channel>
+
+			<channel name='SHN'>
+			</channel>
+
+			<channel name='SHE'>
+			</channel>
+		</station>
+	</network>
+
+	<network name='MN'>
+		<station name='ALFM'>
+			<channel name='SHZ'>
+			</channel>
+
+			<channel name='SHN'>
+			</channel>
+
+			<channel name='SHE'>
+			</channel>
+		</station>
+	</network>
+</server>

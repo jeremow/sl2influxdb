@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:dtk="http://www.fdsn.org/xml/dtk/1" schemaVersion="1.0">
+	<Source>RD</Source>
+	<Module>ObsPy 1.0.2</Module>
+	<ModuleURI>https://www.obspy.org</ModuleURI>
+	<Created>2020-10-08T02:33:00.000000+00:00</Created>
+    <Network code="RD">
+        <TotalNumberStations>2</TotalNumberStations> 
+		<Station code="SONA1" startDate="2001-09-04T00:00:00" endDate="2050-12-31T23:59:59" dtk:networkAffiliation="LDG">
+			<Site>
+                <Name>SONGINO, Mongolia</Name>
+            </Site>
+            <Latitude>47.846770</Latitude>
+            <Longitude>106.403250</Longitude>
+            <Elevation>1.5117</Elevation>
+            <TotalNumberChannels>15</TotalNumberChannels>
+			<Channel code="SHZ" name="SONA1" dtk:sensorCode="SONA1" dtk:abbrName="" dtk:alternateCode=" " locationCode="" startDate="2002-06-04T00:00:00" endDate="2050-12-31T23:59:59">
+                <Sensor>
+                    <Description>SONGINO SONA1, Mongolia</Description>
+                </Sensor>
+                <Latitude>47.846770</Latitude>
+                <Longitude>106.403250</Longitude>
+                <Elevation>1.5117</Elevation>
+                <Depth>0</Depth>
+                <Dip>0</Dip>
+                <Azimuth>0</Azimuth>
+                <SampleRate>50</SampleRate>
+                <Response>
+                    <InstrumentSensitivity>
+                        <OutputUnits>
+                            <Name>COUNTS</Name>
+                        </OutputUnits>
+                        <Value>9.43718E+09</Value>
+                        <Frequency>10</Frequency>
+                        <InputUnits>
+                            <Name>M/S</Name>
+                        </InputUnits>
+                    </InstrumentSensitivity>
+                    <Stage number="1">
+                        <PolesZeros>
+                            <NormalizationFactor>1</NormalizationFactor>
+                            <NormalizationFrequency>10</NormalizationFrequency>
+                            <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                            <OutputUnits>
+                                <Name>COUNTS</Name>
+                            </OutputUnits>
+                            <InputUnits>
+                                <Name>M/S</Name>
+                            </InputUnits>
+                            <Pole number="1">
+                                <Real>-2.22</Real>
+                                <Imaginary>-2.22</Imaginary>
+                            </Pole>
+                            <Pole number="2">
+                                <Real>-2.22</Real>
+                                <Imaginary>2.22</Imaginary>
+                            </Pole>
+                            <Zero number="3">
+                                <Real>0</Real>
+                                <Imaginary>0</Imaginary>
+                            </Zero>
+                            <Zero number="4">
+                                <Real>0</Real>
+                                <Imaginary>0</Imaginary>
+                            </Zero>
+                        </PolesZeros>
+                    </Stage>
+                </Response>
+            </Channel>
+		</Station>
+		<Station code="SONA2" startDate="2001-09-04T00:00:00" endDate="2050-12-31T23:59:59" dtk:networkAffiliation="LDG">
+			<Site>
+                <Name>SONGINO, Mongolia</Name>
+            </Site>
+            <Latitude>47.850680</Latitude>
+            <Longitude>106.398650</Longitude>
+            <Elevation>1.5083</Elevation>
+            <TotalNumberChannels>15</TotalNumberChannels>
+			<Channel code="SHZ" name="SONA2" dtk:sensorCode="SONA2" dtk:abbrName="" dtk:alternateCode=" " locationCode="" startDate="2002-06-04T00:00:00" endDate="2050-12-31T23:59:59">
+                <Sensor>
+                    <Description>SONGINO, Mongolia</Description>
+                </Sensor>
+                <Latitude>47.850680</Latitude>
+                <Longitude>106.398650</Longitude>
+                <Elevation>1.5083</Elevation>
+                <Depth>0</Depth>
+                <Dip>0</Dip>
+                <Azimuth>0</Azimuth>
+                <SampleRate>50</SampleRate>
+                <Response>
+                    <InstrumentSensitivity>
+                        <OutputUnits>
+                            <Name>COUNTS</Name>
+                        </OutputUnits>
+                        <Value>9.43718E+09</Value>
+                        <Frequency>10</Frequency>
+                        <InputUnits>
+                            <Name>M/S</Name>
+                        </InputUnits>
+                    </InstrumentSensitivity>
+                    <Stage number="1">
+                        <PolesZeros>
+                            <NormalizationFactor>1</NormalizationFactor>
+                            <NormalizationFrequency>10</NormalizationFrequency>
+                            <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                            <OutputUnits>
+                                <Name>COUNTS</Name>
+                            </OutputUnits>
+                            <InputUnits>
+                                <Name>M/S</Name>
+                            </InputUnits>
+                            <Pole number="1">
+                                <Real>-2.22</Real>
+                                <Imaginary>-2.22</Imaginary>
+                            </Pole>
+                            <Pole number="2">
+                                <Real>-2.22</Real>
+                                <Imaginary>2.22</Imaginary>
+                            </Pole>
+                            <Zero number="3">
+                                <Real>0</Real>
+                                <Imaginary>0</Imaginary>
+                            </Zero>
+                            <Zero number="4">
+                                <Real>0</Real>
+                                <Imaginary>0</Imaginary>
+                            </Zero>
+                        </PolesZeros>
+                    </Stage>
+                </Response>
+            </Channel>
+		</Station>
+    </Network>
+</FDSNStationXML>	

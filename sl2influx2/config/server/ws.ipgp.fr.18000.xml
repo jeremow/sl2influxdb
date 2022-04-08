@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<server ip='ws.ipgp.fr' port='18000'>
+	<network name='G'>
+		<station name='FDFM'>
+			<channel location='00' name='BHZ'>
+			</channel>
+		</station>
+	</network>
+	<network name='WI'>
+		<station name='ABD'>
+			<channel location='' name='HHZ'>
+			</channel>
+		</station>
+		<station name='BIM'>
+			<channel location='' name='HHZ'>
+			</channel>
+		</station>
+		<station name='CBE'>
+			<channel location='' name='HHZ'>
+			</channel>
+		</station>
+	</network>
+</server>

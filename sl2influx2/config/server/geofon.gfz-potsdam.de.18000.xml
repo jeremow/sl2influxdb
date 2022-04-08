@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<server ip='geofon.gfz-potsdam.de' port='18000'>
+	<network name='BW'>
+		<station name='RJOB'>
+			<channel location='' name='EHZ'>
+			</channel>
+		</station>
+	</network>
+</server>
